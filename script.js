@@ -1,30 +1,24 @@
-// mul each Number by 3
+
 // task 1
 let numbers = [1, 2, 3, 4, 5];
-
 let mul = numbers.map(num => num * 3);
 console.log("task1");
-
-
 console.log(mul); // [3, 6, 9, 12, 15]
 
 
 
 // task 2 
 let arr = [12, 5, 8, 130, 44];
-
 let result = arr.filter(num => num > 10);
 console.log("task2");
 console.log(result); // [12, 130, 44]
 
-
-
 // 3) forEach
 let fruits = ["apple", "banana", "mango"];
-
 fruits.forEach(fruit => {
+    console.log("task3");
   console.log(`Fruit: ${fruit}`);
-  console.log("task3");
+  
 });
 
 
